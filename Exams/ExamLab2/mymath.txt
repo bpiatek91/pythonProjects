@@ -1,0 +1,13 @@
+from math import *
+def powerval(num1,num2):
+	if num1>num2:
+		big = num1
+		small = num2	
+	if num1==num2:
+		print("nums are equal! try again!")
+	if num1<num2:
+		small = num1
+		big = num2
+	print(int(pow(big,small)))
+	#print(big,big,big,small) test
+powerval(num1,num2)

@@ -1,0 +1,30 @@
+Brett Piatek
+Lab 1
+COSC 1336.005
+6/12/16----Updated 7/2/16
+
+
+One can find roughly the square root of two numbers by using a bit of logic and multiplication. Let's say that the user is trying to find the square root of 5. 
+It is common knowledge to know that 2 squared is 4 and 3 squared is 9, so the square root of five will fall somewhere between 2 and 3. It's also safe to assume that 
+the answer will be closer to 2 than 3 because 5 is closer to 4 than 9. So, the user could start with a nice round number, let's say 2.1. 
+
+2.1*2.1 = 4.41
+
+Not bad for a first try, but it's a bit low. Let's plug in something a bit higher and with a digit in the hundreth's place for accuracy, say 2.25:
+
+2.25*2.25 = 5.0625
+
+Closer! But we can still get even closer to a clean square root by manipulating the thousandth's place. Let's plug in 2.24:
+
+2.24*2.24 = 5.0176
+
+Very close! Now we can the thousandth's place to refine our answer and get something even closer. Let's plug in 2.235: 
+
+2.235*2.235 = 4.995225
+
+Since we are already in the thousandth's place, any changes we make here will be minute, so it gives us the opporutnity to really hone in on our answer. Let's plug in 2.236:
+
+2.236*2.236 = 4.99969
+
+It doesn't get much closer than that. We could continue to refine our answer into the ten-thousandth's place and beyond for accuracy, but this is a very good answer. 
+

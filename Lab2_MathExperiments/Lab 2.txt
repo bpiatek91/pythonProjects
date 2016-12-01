@@ -1,0 +1,28 @@
+#Brett Piatek
+#Lab 2
+#COSC 1336.005
+#6/12/16
+
+
+1. >>> 1/2
+	#The code printed 0.5. Since Python is an interpretive language, the computer assumed that I mean to print the answer of 1 divided by 2.
+2. >>> int(1/2)
+	#The code printed 0 because int is a whole number attribute and the correct answer would be 0.5 which would require a declaration of a float or similar function.
+3. >>> "bye"* 5
+	#The code printed "byebyebyebyebye" because of the user asking for the string "bye" five times without any spaces or formatting. 
+4. >>> "bye" / 5
+	#The code returned an error due to the fact that the division function of '/' is not supported when dealing with strings.
+5. >>> 1+2/5
+	#The code printed 1.4 because due to the order of operations, the division will happen before the addition so the problem is computated (2/5) then + 1. And in reference to problem 1, the computer assumed that it was to print the problem back to the user.
+6. >>> (1+2)/5
+	#The code printer 0.6 again due to the order of operations computing the parenthases before the division. 
+7. >>> sqrt(5)
+	#The code returned an error stating that "name 'sqrt' is not defined" meaning that the Math function nor had the square root tool been called into the code. 
+8. >>> from math import sqrt
+   	>>> sqrt(5)
+	#The code printed 2.23606797749979 because the math function had been called which allowed the user to access the math tool sqrt to find the correct square root of 5. 
+9. >>> sqrt(5)*sqrt(5)
+	#The computer printed 5.0 because with the multiplication tool (*) the computer reads it as multiplying two square roots which takes the user back to the original number.
+10. >>> for i in range(5):
+	...	print(i*5)
+	#The computer printed out a list of multiples of 5 including 0, 5, 10, 15, and 20. This is because that the user set the range up to 5 so the computer executed the for loop and printed the results on their own unique line. It calculated that i would be an integer starting at 0 and increasing by 1 each time the loop was executed up to 4. This is because computers start at 0 and we told the loop to stop executing after the fifth time. 

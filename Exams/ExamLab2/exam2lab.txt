@@ -1,0 +1,27 @@
+#http://www.co-pylit.org/html/C78P43/ExamTwoLab.html
+#Brett Piatek
+#7/20/2016
+#CS1336
+#Exam 2 Lab	
+examnum = "Exam 2 Lab"
+first = "Brett"
+last = "Piatek"
+month = "July"
+day = "21"
+year = "2016"
+print("%s"%(examnum))
+print("Submitted by:%s %s"%(first,last))
+print("%s %s,%s"%(month,day,year))
+def getData():
+	fin = open("sample.dat","r") #Opens the data file
+	for i in range(15): #loops the readline to read the entire list
+		nums = fin.readline().strip()
+		print(nums)
+def summer():
+	n = 0
+	for i in range (7):
+		print(n)
+		n += 2
+		from mymath import powerval
+summer()
+getData()
